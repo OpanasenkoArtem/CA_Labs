@@ -1,0 +1,92 @@
+    1  uname -a
+    2  sudo apt update
+    3  sudo apt upgrade
+    4  cat /etc/apt/sources.list
+    5  cat /etc/apt/sources.list.d/ubuntu.sources
+    6  sudo apt install vim
+    7  cd ~
+    8  cd Downloads
+    9  man ls
+   10  ls -la
+   11  dpkg -i example.deb
+   12  sudo dpkg -i example.deb
+   13  cd /
+   14  sudo su
+   15  echo "hi all"
+   16  echo "$PWD hi all here!"
+   17  touch hi.sh
+   18  sudo touch hi.sh
+   19  echo $PATH
+   20  vi hi.sh
+   21  ./hi.sh
+   22  chmod a+x hi.sh
+   23  sudo chmod a+x hi.sh
+   24  chmod a+rwx hi.sh
+   25  sudo chmod a+rwx hi.sh
+   26  ./hi.sh
+   27  ./hi.sh Ukraine
+   28  cp hi.sh scripts/
+   29  mkdir scripts
+   30  sudo mkdir scripts
+   31  cp hi.sh scripts/
+   32  sudo cp hi.sh scripts/
+   33  sudo cp scripts ~/Documents/
+   34  sudo cp -r scripts ~/Documents/
+   35  cd scripts
+   36  mv hi.sh ..
+   37  sudo mv hi.sh ..
+   38  cd ..
+   39  sudo rm scripts
+   40  sudo rm -r scripts
+   41  cd /bin
+   42  ls -l
+   43  cd ../..
+   44  sudo mkdir scripts
+   45  sudo tar -cvf scripts.tar scripts/
+   46  cat hi.sh
+   47  cat /var/log/syslog
+   48  tail -n 20 /var/log/syslog
+   49  less /var/log/syslog
+   50  cd /
+   51  find . -name "dhcp"
+   52  q
+   53  sudo find . -name "dhcp"
+   54  sudo find . -name "dhcp" 2>/dev/null
+   55  sudo find . -name "*dhcp*" | grep -i "dhcp"
+   56  sudo find . -name "*dhcp*" | grep -i "etc"
+   57  ping -c 4 google.com
+   58  ping -c 4 google.com > ping_log.txt
+   59  sudo ping -c 4 google.com > ping_log.txt
+   60  ping -c 4 google.com > ~/ping_log.txt &
+   61  date
+   62  sudo ping -c 4 google.com
+   63  totem
+   64  sudo apt install totem
+   65  totem
+   66  ls -l
+   67  cd /bin
+   68  ls
+   69  echo $PATH
+   70  print env
+   71  env
+   72  whoami
+   73  cd /etc
+   74  ls
+   75  cd ..
+   76  cd lib
+   77  ls
+   78  dmesg
+   79  sudo dmesg
+   80  ls /dev
+   81  sudo dmesg -C
+   82  sudo dmesg
+   83  df -h
+   84  cd /home
+   85  ls -l
+   86  lsmod
+   87  cd /proc
+   88  cat cpuinfo
+   89  echo 1 > /proc/sys/net/ipv4/ip_forward
+   90  sudo su
+   91  history > history1.txt
+

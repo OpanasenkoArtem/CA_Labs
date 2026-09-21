@@ -1,0 +1,10 @@
+    1  clear
+    2  ping google.com
+    3  fg
+    4  ps aux | grep ping
+    5  kill 12064
+    6  ps aux | grep ping
+    7  kill 13235
+    8  sudo kill -9 13235
+    9  sudo killall vlc
+   10  history > ~/history2.txt
